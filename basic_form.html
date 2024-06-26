@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PERSONAL DETAILS</title>
+</head>
+<body>
+    <h1 align="center">Registration Form</h1>
+    <form>
+        <fieldset>
+            <legend><h3>Personal details</h3></legend>
+        <table cellspacing="20">
+        <tr>
+            <td><label><b>First name</b></label></td>
+            <td><input type="text" placeholder="Enter ur first name" required></td> </td>
+        </tr>
+       
+        <tr>
+            <td><label><b>Middle Name</b></label></td>
+            <td><input type="text" placeholder="Enter ur middle Name"></td>
+        </tr>
+        <tr>
+            <td><label><b>Last Name</b></label></td>
+            <td><input type="text" placeholder="Enter ur last Name" required></td> 
+        </tr>
+        <tr>
+            <td><label><b>Phone Number</b></label></td>
+            <td><input type="text" placeholder="enter Phone Number" required pattern="[6789]{1}[0-9]{9}"></td>
+        </tr>
+        <tr>
+            <td><b>Email-Id</b></td>
+            <td><input type="email" placeholder="Enter ur email id" required></td>
+        </tr>
+        <tr>
+            <td><b>Gender</b></td>
+            <td><input type="radio" name="gender">Male&nbsp;&nbsp;
+                <input type="radio" name="gender">Female&nbsp;&nbsp;
+                <input type="radio" name="gender">Prefer not to say</td>
+        </tr>
+        <tr>
+            <td><b>Date of Birth</b></td>
+            <td>
+                <input type="date" required></td>
+        </tr>
+        
+    </table>
+</fieldset>
+<table><tr><th><br></th></tr></table>
+<fieldset>
+    <legend><h3>Educational details</h3></legend>
+    <table cellspacing="20">
+        <tr>
+            <td>
+                <b>Graduation</b>
+            </td>
+            <td><select>
+                <option>B.Tech</option>
+                <option>BE</option>
+                <option>BA</option>
+                <option>BArch</option>
+                <option>BSC</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><b>Branch</b>
+            </td>
+            <td><input list="branch">
+                <datalist id="branch">
+                    <option>CSE</option>
+                    <option>ECE</option>
+                    <option>CIVIL</option>
+                    <option>MECH</option>
+                    <option>IT</option>
+                </datalist></td>
+        </tr>
+        <tr>
+            <td><b>Year of passing</b>
+            </td>
+            <td><select>
+                <option>2025</option>
+                <option>2024</option>
+                <option>2023</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><b>College</b></td>
+            <td><input type="text" required></td>
+        </tr>
+        <tr>
+            <td><b>Graduation CGPA</b></td>
+            <td><input type="text" required></td>
+        </tr>
+        <tr>
+            <td><b>12th percentage</b></td>
+            <td><input type="text" required></td>
+        </tr>
+        <tr>
+            <td><b>10th CGPA</b></td>
+            <td><input type="text" required></td>
+        </tr>
+        <tr>
+            <th><b>Resume</b></th>
+            <th><input type="file" required></th>
+        </tr>
+
+        </table>
+        </fieldset>
+       <table cellspacing="50"><tr><th> <input type="submit" ></th></tr></table>
+    </form>
+
+</body>
+</html>
